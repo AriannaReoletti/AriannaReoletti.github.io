@@ -1,17 +1,32 @@
 const cheat_meals = [
-  { Name: "Toyama", Url: "http://www.ristorantetoyama.it/" },
-  { Name: "Wakaba", Url: "https://wakabamilano.blogspot.com/?m=1" },
   {
-    Name: "El Chorillano",
-    Url: "https://zero.eu/it/luoghi/166746-el-chorillano,milano/",
+    Name: "Volemose Bene",
+    Url: "https://www.volemosebenemilano.it/chi_siamo/",
   },
-  { Name: "Nima", Url: "http://nimasushi.it/ristorante/milano/#menu-toggle" },
-  { Name: "Bomaki", Url: "https://www.bomaki.it/" },
-  { Name: "La Perla D'Oro", Url: "https://www.laperladoro.it/i-ristoranti/" },
-  { Name: "Tenoha", Url: "https://www.tenoha.it/" },
-  { Name: "Zàzà Ramen", Url: "https://www.zazaramen.it/" },
-  { Name: "Bhangrabar", Url: "http://bhangrabar.it/" },
-  { Name: "Plato Chic Superfood", Url: "https://platomilano.com/" },
+  {
+    Name: "Peperino Milano",
+    Url: "http://www.peperinomilano.it/menu-category/menu/",
+  },
+  {
+    Name: "Le Combattenti",
+    Url: "https://www.trattoria-milano.it//",
+  },
+  {
+    Name: "Le Biciclette",
+    Url: "http://www.lebiciclette.com/prenotazioni.asp?useLng=",
+  },
+  {
+    Name: "Mani in Pasta",
+    Url: "https://www.maniinpastagroup.com/mani-in-pasta-via-padova",
+  },
+  { Name: "Stelvio Milano", Url: "https://www.stelviomilano.it/#ristorante" },
+  { Name: "Metropolis", Url: "http://www.cafemetropolis.it/" },
+  { Name: "Mi Scusi", Url: "https://www.miscusi.com/it/" },
+  {
+    Name: "Pizzeria Pt Garibaldi",
+    Url: "http://www.pizzeriaportagaribaldi.com/",
+  },
+  { Name: "All'Isola", Url: "https://www.all-isola.com/" },
   { Name: "Karbon y Limon", Url: "http://www.dkarbonylimon.com/" },
   { Name: "Beirut", Url: "http://www.ristorantebeirut.it/" },
   { Name: "California Bakery", Url: "http://www.californiabakery.it/" },

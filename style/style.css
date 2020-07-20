@@ -1,8 +1,8 @@
 /* VARIABLES */
 :root {
-  --primary: #1e1e1e;
-  --secondary: #00f3ff;
-  --detail: #fbff21;
+  --primary: #8f00f8;
+  --secondary: #d660f3;
+  --detail: #00f000;
   --white: #ffffff;
 
   --text-primary: "Caveat", cursive;
@@ -147,6 +147,58 @@ table {
     Copyright (c) 2018 Daniel Eden
 */
 
+@-webkit-keyframes shakeX {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+@keyframes shakeX {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.animate__shakeX {
+  -webkit-animation-name: shakeX;
+  animation-name: shakeX;
+}
 @-webkit-keyframes tada {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -312,8 +364,8 @@ table {
 .bounceIn {
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
+  -webkit-animation-name: shakeX;
+  animation-name: shakeX;
 }
 
 .animated {
@@ -348,8 +400,8 @@ body {
 
 h1 {
   font-family: var(--text-secondary);
-  font-size: 5rem;
-  color: var(--secondary);
+  font-size: 4rem;
+  color: var(--white);
   margin-bottom: 2.5rem;
 }
 
@@ -367,7 +419,7 @@ button {
   padding: 15px;
   border: 2.5px solid var(--detail);
   color: var(--detail);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 button:hover,
@@ -377,8 +429,8 @@ button:active {
   color: var(--primary);
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
+  -webkit-animation-name: shakeX;
+  animation-name: shakeX;
   outline: none;
 }
 
